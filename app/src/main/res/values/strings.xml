@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Practica 1</string>
+    <string name="spinner_description">Fórmulas</string>
+    <string name="tv_mainTitle">Selecciona una fórmula</string>
 </resources>
