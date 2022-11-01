@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_opciones">
+        <item>Ecuación de segundo grado</item>
+        <item>Ley de Boyle</item>
+        <item>Ley de Charles</item>
+    </string-array>
+</resources>
