@@ -2,4 +2,20 @@
     <string name="app_name">Practica 1</string>
     <string name="spinner_description">Fórmulas</string>
     <string name="tv_mainTitle">Selecciona una fórmula</string>
+    <string name="formula">imagen</string>
+    <string name="bt_calcular">Calcular</string>
+    <string name="tv_number_hint">ingresa un número</string>
+    <string name="tv_a_option">a:</string>
+    <string name="tv_b_option">b:</string>
+    <string name="tv_c_option">c:</string>
+
+    <string name="toast_campo_vacio">Campo vacío</string>
+    <string name="etn_error_valorRequerido">Valor requerido</string>
+
+
+    <string-array name="spinner_opciones">
+        <item>Ecuación de segundo grado</item>
+        <item>Ley de Boyle</item>
+        <item>Ley de Charles</item>
+    </string-array>
 </resources>

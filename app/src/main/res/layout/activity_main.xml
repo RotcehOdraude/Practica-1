@@ -62,7 +62,7 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/formula"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -84,10 +84,11 @@
         app:layout_constraintGuide_percent="0.85" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:onClick="clickCalcular"
+        android:text="@string/bt_calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -115,15 +116,21 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="a:" />
+                android:text="@string/tv_a_option"
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/ETN_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:autofillHints=""
                 android:ems="10"
-                android:inputType="number" />
+                android:hint="@string/tv_number_hint"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -139,15 +146,21 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="b:" />
+                android:text="@string/tv_b_option"
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/ETN_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:autofillHints=""
                 android:ems="10"
-                android:inputType="number" />
+                android:hint="@string/tv_number_hint"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -163,15 +176,21 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="c:" />
+                android:text="@string/tv_c_option"
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/ETN_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:autofillHints=""
                 android:ems="10"
-                android:inputType="number" />
+                android:hint="@string/tv_number_hint"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textColorHint="#78909C"
+                android:textSize="20sp" />
         </LinearLayout>
     </LinearLayout>
 
