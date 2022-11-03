@@ -1,21 +1,46 @@
 <resources>
     <string name="app_name">Practica 1</string>
+    <string name="autor">Autor:Héctor Cabello Aguilar</string>
+    <string name="version" translatable="false">Version: 1.0</string>
+
     <string name="spinner_description">Fórmulas</string>
     <string name="tv_mainTitle">Selecciona una fórmula</string>
     <string name="formula">imagen</string>
     <string name="bt_calcular">Calcular</string>
     <string name="tv_number_hint">ingresa un número</string>
-    <string name="tv_a_option">a:</string>
-    <string name="tv_b_option">b:</string>
-    <string name="tv_c_option">c:</string>
+
+    <string name="tv_a_option" translatable="false">a:</string>
+    <string name="tv_b_option" translatable="false">b:</string>
+    <string name="tv_c_option" translatable="false">c:</string>
+    <!-- -->
+    <string name="tv_p1" translatable="false">P1:</string>
+    <string name="tv_p2" translatable="false">P2:</string>
+    <string name="tv_v2_boyle" translatable="false">P3:</string>
+    <!-- -->
+    <string name="tv_t1" translatable="false">T1:</string>
+    <string name="tv_t2" translatable="false">T2:</string>
+    <string name="tv_v2_charles" translatable="false">V2:</string>
+
+    <string name="spinner_item1">Ecuación de segundo grado</string>
+    <string name="spinner_item2">Ley de Boyle</string>
+    <string name="spinner_item3">Ley de Charles</string>
 
     <string name="toast_campo_vacio">Campo vacío</string>
+    <string name="toast_raices_imaginarias">Raices imaginarias</string>
+    <string name="toast_a_es_cero">(a) no puede ser cero</string>
+    <string name="toast_p1_es_cero">(P1) no puede ser cero</string>
+    <string name="toast_t2_es_cero">(T2) no puede ser cero</string>
+
     <string name="etn_error_valorRequerido">Valor requerido</string>
+    <string name="resultado_formula">Fórmula</string>
+    <string name="resultado_calculo" translatable="false">0.0</string>
+    <string name="btn_resultado_regresar">Inicio</string>
 
 
     <string-array name="spinner_opciones">
-        <item>Ecuación de segundo grado</item>
-        <item>Ley de Boyle</item>
-        <item>Ley de Charles</item>
+        <item>@string/spinner_item1</item>
+        <item>@string/spinner_item2</item>
+        <item>@string/spinner_item3</item>
     </string-array>
+
 </resources>

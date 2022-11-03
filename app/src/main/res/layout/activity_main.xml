@@ -127,7 +127,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/tv_number_hint"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:maxLength="5"
                 android:textColorHint="#78909C"
                 android:textSize="20sp" />
@@ -157,7 +157,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/tv_number_hint"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:maxLength="5"
                 android:textColorHint="#78909C"
                 android:textSize="20sp" />
@@ -187,7 +187,7 @@
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="@string/tv_number_hint"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:maxLength="5"
                 android:textColorHint="#78909C"
                 android:textSize="20sp" />

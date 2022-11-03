@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice 1</string>
+    <string name="spinner_description">Formulas</string>
+    <string name="tv_mainTitle">Select a formula</string>
+    <string name="formula">image</string>
+    <string name="bt_calcular">Calculate</string>
+    <string name="tv_number_hint">enter a number</string>
+    <string name="toast_campo_vacio">Empty input</string>
+    <string name="etn_error_valorRequerido">Value required</string>
+    <string name="spinner_item1">Second grade equation</string>
+    <string name="spinner_item2">Boyle Law</string>
+    <string name="spinner_item3">Charles Law</string>
+    <string name="autor">Author:Héctor Cabello Aguilar</string>
+    <string name="resultado_formula">Formula</string>
+    <string name="toast_raices_imaginarias">Imaginary Roots</string>
+    <string name="toast_a_es_cero">(a) can\'t be zero</string>
+    <string name="toast_p1_es_cero">(P1) can\'t be zero</string>
+    <string name="toast_t2_es_cero">(T2) can\'t be zero</string>
+    <string name="btn_resultado_regresar">Home</string>
+</resources>
